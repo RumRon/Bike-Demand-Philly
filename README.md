@@ -6,12 +6,12 @@ This project aims to predict the number of bike rentals at each Indego station i
 
 
 ### Authors
-*[Rui Jiang](https://rumron.github.io/)
-*[LinkedIn](https://www.linkedin.com/in/rui21/)
+[Rui Jiang](https://rumron.github.io/)<br>
+[LinkedIn](https://www.linkedin.com/in/rui21/)
 ### Example Input and Output
 | Input | Output |
 |----------------------------|---------------------------|
 |![Input](input_example.png) | ![Output](output_example.png) |
 
 
-*[bike Indego data](https://www.rideindego.com/about/data/)
+[bike Indego data](https://www.rideindego.com/about/data/)
