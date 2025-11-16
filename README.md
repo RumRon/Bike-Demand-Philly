@@ -26,3 +26,28 @@ The dataset was aggregated to the station–hour level, where each record repres
 
 
 [bike Indego data](https://www.rideindego.com/about/data/)
+**Data Format**<br>
+Each .csv file contains data for one quarter of the year. Each file contains the following data points:
+
+**trip_id**: Locally unique integer that identifies the trip<br>
+**duration**: Length of trip in minutes<br>
+**start_time**: The date/time when the trip began, presented in ISO 8601 format in local time<br>
+**end_time**: The date/time when the trip ended, presented in ISO 8601 format in local time<br>
+**start_station**: The station ID where the trip originated (for station name and more information on each station see the Station Table)<br>
+**start_lat**: The latitude of the station where the trip originated<br>
+**start_lon**: The longitude of the station where the trip originated<br>
+**end_station**: The station ID where the trip terminated (for station name and more information on each station see the Station Table)<br>
+**end_lat**: The latitude of the station where the trip terminated<br>
+**end_lon**: The longitude of the station where the trip terminated<br>
+**bike_id**: Locally unique integer that identifies the bike<br>
+**plan_duration**: The number of days that the plan the passholder is using entitles them to ride; 0 is used for a single ride plan (Walk-up)<br>
+**trip_route_category**: “Round Trip” for trips starting and ending at the same station or “One Way” for all other trips<br>
+**passholder_type**: The name of the passholder’s plan<br>
+**bike_type**: The kind of bike used on the trip, including standard pedal-powered bikes or electric assist bikes
+[Station Information](https://www.rideindego.com/wp-content/uploads/2025/10/indego-stations-2025-10-01.csv)
+**Data Format**<br>
+**Station ID**: Unique integer that identifies the station (this is the same ID used in the Trips and Station Status data)<br>
+**Station Name**: The public name of the station. “Virtual Station” is used by staff to check in or check out a bike remotely for a special event or in a situation in which a bike could not otherwise be checked in or out to a station.<br>
+**Go live date**: The date that the station was first available<br>
+**Status**: “Active” for stations available or “Inactive” for stations that are not available as of the latest update
+
