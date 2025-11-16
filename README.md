@@ -14,7 +14,7 @@ The dataset was aggregated to the station–hour level, where each record repres
 
 | Input | Output |
 |----------------------------|---------------------------|
-|![Input](input_example.png) | ![Output](output_example.png) |
+|![Input](./figures/input_example.png) | ![Output](./figures/output_example.png) |
 
 
 | Column | Description |
@@ -25,8 +25,8 @@ The dataset was aggregated to the station–hour level, where each record repres
 | y_pred | The predicted trip count estimated by the Linear Regression model.|
 
 
-[bike Indego data](https://www.rideindego.com/about/data/)
-**Data Format**<br>
+[**bike Indego data**](https://www.rideindego.com/about/data/)
+<br>**Data Format**<br>
 Each .csv file contains data for one quarter of the year. Each file contains the following data points:
 
 **trip_id**: Locally unique integer that identifies the trip<br>
@@ -44,8 +44,8 @@ Each .csv file contains data for one quarter of the year. Each file contains the
 **trip_route_category**: “Round Trip” for trips starting and ending at the same station or “One Way” for all other trips<br>
 **passholder_type**: The name of the passholder’s plan<br>
 **bike_type**: The kind of bike used on the trip, including standard pedal-powered bikes or electric assist bikes
-[Station Information](https://www.rideindego.com/wp-content/uploads/2025/10/indego-stations-2025-10-01.csv)
-**Data Format**<br>
+[**Station Information**](https://www.rideindego.com/wp-content/uploads/2025/10/indego-stations-2025-10-01.csv)
+<br>**Data Format**<br>
 **Station ID**: Unique integer that identifies the station (this is the same ID used in the Trips and Station Status data)<br>
 **Station Name**: The public name of the station. “Virtual Station” is used by staff to check in or check out a bike remotely for a special event or in a situation in which a bike could not otherwise be checked in or out to a station.<br>
 **Go live date**: The date that the station was first available<br>
