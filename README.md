@@ -55,3 +55,11 @@ Each .csv file contains data for one quarter of the year. Each file contains the
 **Go live date**: The date that the station was first available<br>
 **Status**: “Active” for stations available or “Inactive” for stations that are not available as of the latest update
 
+### [**All station data**](https://kiosks.bicycletransit.workers.dev/phl)
+
+### [**Weather**](https://pypi.org/project/pyiem/)<br>
+import pyiem; station = "PHL"
+
+### [**Census**](https://pypi.org/project/pytidycensus/)<br>
+import tidycensus
+
