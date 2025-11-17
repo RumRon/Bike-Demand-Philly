@@ -55,11 +55,25 @@ Each .csv file contains data for one quarter of the year. Each file contains the
 **Go live date**: The date that the station was first available<br>
 **Status**: “Active” for stations available or “Inactive” for stations that are not available as of the latest update
 
-### [**All station data**](https://kiosks.bicycletransit.workers.dev/phl)
+### [**All station data API**](https://kiosks.bicycletransit.workers.dev/phl)
+This endpoint provides a live GeoJSON feed of all Indego stations, including station coordinates, capacity (total docks), and availability.
 
 ### [**Weather**](https://pypi.org/project/pyiem/)<br>
-import pyiem; station = "PHL"
+import pyiem; station = "PHL"<br>
+Weather data was collected from the Philadelphia International Airport (PHL) ASOS station, which provides high-quality hourly observations.
 
 ### [**Census**](https://pypi.org/project/pytidycensus/)<br>
 import tidycensus
 
+### Amenities
+[**Bus Shelters**](https://opendataphilly.org/datasets/bus-shelters/)<br>
+bus_transit_shelters.geojson<br>
+[**Trolley&Rail**](https://opendataphilly.org/datasets/septa-routes-stops-locations/)<br>
+Regional_Rail_Stations.geojson<br>
+Trolley_Stations.geojson<br>
+[**School**](https://opendataphilly.org/datasets/schools/)<br>
+Schools.geojson<br>
+[**Parks**](https://opendataphilly.org/datasets/parks-recreation-program-sites/)<br>
+PPR_Program_Sites.geojson<br>
+[**Hospitals**](https://opendataphilly.org/datasets/philadelphia-hospitals/)<br>
+Hospitals.geojson
